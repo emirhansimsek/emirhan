@@ -1,5 +1,10 @@
+
 body {
+  text-align: center;
   background-color: #c9d6df;
+}
+table {
+  text-align: center;
 }
 hr {
   border-style: dotted none none none;
@@ -7,5 +12,9 @@ hr {
   border-width: 4px;
   width: 5%;
 }
-h1 {color: #17706e}
-h3 {color: #17706e}
+h1 {
+  color: #17706e
+}
+h3 {
+  color: #17706e
+}
