@@ -31,37 +31,40 @@ h3 {
 }
 
 .middle-container {
-  margin:50px;
+  margin: 50px;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: #8de4d2;
   padding: 40px 0 20px;
   text-decoration: none;
-  font-family: : 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-a {
+
+.footer-link {
   text-decoration: none;
+  font-family: 'Merriweather', serif;
   margin: 10px 20px;
   color: #11999e;
 }
-a:hover {
+
+.footer-link:hover {
   color: #2d404e;
 }
-.copyright{
+
+.copyright {
+  font-family: 'Merriweather', serif;
   color: white;
   font-size: 12px;
-  padding: 20px 0px;
+  padding: 20px;
 }
 
 hr {
-  border: dotted  #eaf6f6 6px;
+  border: dotted #eaf6f6 6px;
   border-bottom: 0;
   width: 4%;
   margin: 70px auto;
 }
-
-
 
 .bottomcloud {
   position: absolute;
@@ -73,10 +76,6 @@ hr {
   position: absolute;
   top: 200px;
   right: 300px;
-}
-
-hr {
-  color: #204051;
 }
 
 .programmer {
@@ -101,28 +100,32 @@ hr {
   float: right;
   margin-left: 30px;
 }
+
 .baslik {
   width: 30%;
+  line-height: 2;
   margin: auto;
 }
+
+.altlik {
+  width: 50%;
+  line-height: 2;
+  margin: 0 auto 37px;
+}
+
 .btn {
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
   border-radius: 6px;
-  font-family:   'Montserrat', sans-serif;
+  font-family: 'Merriweather', serif;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 13px;
   background: #8de4d2;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #aef5e6;
-  background-image: -webkit-linear-gradient(top, #aef5e6, #aef5e6);
-  background-image: -moz-linear-gradient(top, #aef5e6, #aef5e6);
-  background-image: -ms-linear-gradient(top, #aef5e6, #aef5e6);
-  background-image: -o-linear-gradient(top, #aef5e6, #aef5e6);
-  background-image: linear-gradient(to bottom, #aef5e6, #aef5e6);
+  background: #aff7e7;
   text-decoration: none;
 }
