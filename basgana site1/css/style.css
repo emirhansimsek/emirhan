@@ -1,0 +1,299 @@
+body {
+font-family: 'Montserrat';
+}
+
+/* headings */
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  color: white;
+  background-color: #f7f7f7;
+}
+h1 {
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbartoggler{
+  font-family: 'EB Garamond', serif;
+  color: black;
+}
+
+.ebu{
+    font-family: 'EB Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.ebu:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.navbar{
+  padding:0 0 ;
+}
+
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link1{
+  font-family: 'EB Garamond', serif;
+  color: black;
+  font-weight: 300;
+}
+
+.nav-link1:hover{
+  color: black;
+  text-decoration: none;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* /!-- Features --/ */
+
+.para{
+  color: #8f8f8f;
+}
+
+#features {
+  background: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feat {
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  color: grey;
+  text-align: center;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hor{
+  width: 75%;
+  color: grey;
+}
+
+.fortimg{
+  width: 90%;
+}
+
+.fortimg1{
+  margin-left: 30px;
+  width: 90%;
+}
+
+.fort1{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  text-align: center;
+  font-size: 1rem;
+  padding: 32px;
+  background-color: #f2f2f2;
+}
+
+#features2 {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.featurtext{
+  padding-left: 5%;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  color: white;
+}
+
+.carousel-item{
+  padding: 4% 0;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 50%;
+}
+
+.testimonial-img1{
+  width: 113%;
+}
+
+h4{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.3em;
+  color: grey;
+}
+
+.btndiv{
+  margin-top: 5%;
+}
+
+.btn {
+padding: 2% 10%;
+font-family: 'EB Garamond', serif;
+letter-spacing: 0.1em;
+}
+
+
+/* press section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.featuredimgdiv {
+  text-align: center;
+}
+
+.featured-img1{
+  width: 100%;
+}
+
+.featuredh1{
+  padding: 5%;
+}
+
+.featureddiv{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.4em;
+  color: grey;
+}
+
+/* footer */
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7% 13%;
+}
+.fabft{
+  color: black;
+  margin: 20px 10px;
+}
+.fabft:hover{
+  color: grey;
+}
+.copyright {
+  color: #8f8f8f;
+}
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .fort1{
+    margin-left: 3%;
+  }
+
+  .fortimg{
+    margin-left: 7%;
+  }
+
+  .featuredh1 {
+    text-align: center;
+  }
+  .featurtext{
+    text-align: center;
+  }
+
+  
+
+
+
+
+/* cta */
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 13%;
+  text-align: center;
+  }
+  .cta-h3{
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+/* footer */
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 7% 13%;
+}
+.fabft{
+  color: black;
+  margin: 20px 10px;
+}
+.fabft:hover{
+  color: grey;
+}
+.copyright {
+  color: #8f8f8f;
+}
